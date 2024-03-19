@@ -1,0 +1,84 @@
+
+
+@media screen and (max-width:768px) {
+    .LoginCont{
+        width: 100%;
+    }
+    .LoginHeaderCont{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .PPLogo{
+        width: 60%;
+    }
+    .LoginText{
+        font-size: 5vw;
+        font-weight: 700;
+        color:rgb(62, 61, 61);
+        margin-left: 3%;
+    }
+
+    .LoginInputCont{
+        margin-top: 15%;
+       
+        height: 65vh;
+        gap:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LoginInputCont input,.LoginBtn{
+        width: 90%;
+        height: 7vh;
+        font-size: 5vw;
+        font-weight: 600;
+        padding-left: 3vw;
+        border:none;
+        box-shadow: 0px 0px 8px 0px rgb(184, 184, 184);
+        border-radius: 2vw;
+        outline: none;
+
+
+    }
+    .LoginBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        color:white;
+        background-color: rgb(0, 0, 150);
+    }
+    .LoginInputCont input::placeholder{
+        color:rgb(99, 99, 99);
+        font-size: 4vw;
+        font-weight:600;
+    }
+  
+
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
+
+.LoginCont{
+    width: 60%;
+}
+.LoginHeaderCont{
+    height: 20vh;
+}
+.LoginInputCont{
+    height: 30vh;
+}
+.LoginInputCont input{
+    font-size: 3vw;
+}
+.LoginBtn{
+    font-size: 4vw;
+}
+}

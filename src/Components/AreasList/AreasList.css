@@ -1,0 +1,47 @@
+.AreasListMainCont{
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    overflow-y: hidden;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.AreaListCont{
+    height:90% ;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:2%;
+    overflow-y: scroll;
+    
+   
+
+ 
+
+}
+
+.AreaCont{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #79a6f89d;
+    box-shadow: 0px 0px 2px 0px rgb(45, 45, 45);
+    border-radius: 2vw;
+    padding: 2.5%;
+    margin: auto;
+
+}
+.Area{
+    font-size: 4vw;
+    font-weight: 600;
+    color:black;
+}
+
+.AreaDetails{
+    display: flex;
+    justify-content: space-between;
+}

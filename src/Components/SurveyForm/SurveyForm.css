@@ -1,0 +1,307 @@
+
+@media screen and (max-width:768px) {
+    
+
+
+.SurveyFormMainCont{
+    background-color: #f6f1ff;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+   
+   
+}
+.SurveyHeaderCont{
+    height: 6vh;
+    background-color: #28529E;
+    color:white;
+    display: flex;
+    gap:5%;
+    align-items: center;
+    padding:0vw 3vw;
+}
+
+
+
+.SurveyFormCont {
+    width: 100%;
+    padding-top:2%;
+    display: flex;
+    height: 94vh;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden ;
+    gap:5%;
+}
+.SurveyDetails{
+    width: 90%;
+    background-color: white;
+    padding:5%;
+    /* border: 2px dashed gray; */
+    box-sizing: border-box;
+    font-size: 4.5vw;
+    box-shadow: 0px 0px 2px 0px gray;
+    border-radius: 2vw;
+    font-weight: 600;
+
+}
+.SurveyDetails span{
+    color:#28529E;
+    font-weight: 600;
+}
+.SHouseNo{ 
+    font-weight: 600;
+    font-size: 4.5vw;
+    margin-top: 2%;
+}
+.SAgeGenderCont{
+    display: flex;
+    gap:5%;
+}
+.FamilyMembersCont{
+    display: flex;
+    gap:0%;
+    flex-direction: column;
+    align-items: center;
+    height: 62%;
+   
+ 
+
+}
+.SurveyForm{
+    width: 90%;
+    gap:5%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+
+    
+}
+.SurveyForm{
+    height:58%;
+
+}
+
+.SurveyForm input{
+    width: 90%;
+    border: none;
+    outline: rgb(116, 116, 244) ;
+    border-radius: 2vw;
+    padding: 3% 5%;
+    font-size: 5.5vw;
+    font-weight: 700; 
+    color:#28529E 
+}
+
+.SurveyForm input:focus{
+    border: 1px solid  rgb(116, 116, 244);
+}
+
+.SurveyForm input::placeholder{
+    font-size: 4vw;
+    font-weight: 600;
+    color:#28519ebf;
+}
+.SSubmitBtn{
+    background-color: #28529E;
+    color:white;
+    font-weight: 600;
+    font-size: 5vw;
+    padding:4% 5%;
+    border: none;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+.FamilyMembCont{
+    text-align: center;
+}
+.MembersList{
+    display: flex;
+    flex-direction: column; 
+   
+    height: 100%;
+    overflow-y: scroll;
+    gap:3vh;
+    width:90%;
+    padding-top: 5%;
+    padding-bottom: 5%;  
+    font-size: 4vw;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 2vw;
+}
+.MembersList label{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    gap:5%;
+    border:1px solid #28529E;
+    width: 90%;
+    box-shadow: 0px 5px 0px 0px #28529E;
+    padding:2% 0%;
+  
+}
+
+
+
+.SelectAntd{
+    width: 100%;
+    height:5vh;
+}
+.resetAddCont{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding: 1vh;
+}
+.resetBtn,.addBtn{
+    background-color:white;
+    padding: 1vw 2vw;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 1vw;
+}
+
+ .ant-select-item-option-content{
+    /* border:1px solid #28529E !important; */
+    /* border-bottom: 4px solid #28529E !important; */
+    color:#28529E !important;
+    font-size: 5.5vw !important;
+    font-weight: 600 !important;
+}
+.SelectAntd .ant-select-selector{
+    height:5vh !important;
+    font-size: 5vw !important;
+    color:#28529E !important;
+    
+}
+.SelectAntd .ant-select-selection-item{
+    font-weight: 700 !important;
+    font-size: 6vw !important;
+    font-weight: 700 !important;
+}
+.SelectAntd .ant-select-arrow{
+    font-size: 5vw !important;
+    color:#28529E !important;
+   
+}
+.SelectAntd  .ant-select-selection-placeholder{
+    font-size: 5.5vw !important;
+    font-weight: 700 !important;
+    color:#2c57a68f !important;
+}
+
+input[type="checkbox"]{
+    width: 5vw;
+    height: 5vw;
+    
+}
+/* input[type="text"]{
+    font-size: 5vw;
+    font-weight: 600;
+} */
+
+.ColorsCont{
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgb(221, 221, 221);
+    border-radius: 2vw;
+    height: 6vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.RedColor{
+    width: 10vw;
+    height: 5vh;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.YellowColor{
+    width: 10vw;
+    height: 5.5vh;
+    background-color:rgb(237, 237, 0);
+    border-radius: 50%;
+}
+.GreenColor{
+    width: 10vw;
+    height: 5.5vh;
+    background:linear-gradient(to right,green,red,blue,yellow);
+    border-radius: 50%;
+}
+.OrangeColor{
+    width: 10vw;
+    height: 5.5vh;
+    background-color:rgb(83, 114, 255);
+    border-radius: 50%;
+}
+
+.selectedCount{
+    background-color: white;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 5px 0px gray;
+    padding:1vw;
+}
+.addMembersMainCont{
+    width: 95%;   
+}
+.searchMember{
+    width: 90%;
+    margin-left:5% ;
+    height: 5vh;
+    border:2px solid gray;
+    border-radius: 2vw;
+    outline: none;
+    font-size: 5vw;
+    padding: 5%;
+    font-weight: 600;
+    color:rgb(88, 87, 87);
+}
+.addMembersVoterList{
+    overflow-x: hidden;
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 5px 0px gray;
+    height:35vh;
+    gap:2vh;
+    display: flex;
+    margin-top: 5%;
+    padding:5% 1%;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.searchMember::placeholder{
+   
+    font-weight: 500;
+    color:gray
+    
+}
+.pool{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: rgb(116, 116, 244) ;
+    border-radius: 2vw;
+    padding: 3% 5%;
+    font-size: 5.5vw;
+  
+    font-weight: 700; 
+    color:#28529E ;
+    background-color: white;
+}
+.pool .pools{
+    font-size: 5.5vw !important;
+    color:#28529E ;
+    
+}
+   
+}

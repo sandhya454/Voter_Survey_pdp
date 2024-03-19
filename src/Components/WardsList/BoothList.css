@@ -1,0 +1,94 @@
+.BoothListMainCont{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #f6f1ff;
+}
+
+
+.BoothHeaderCont{
+    
+    height: 4vh;
+    align-items: center;
+    background-color: #28529E;
+    color:white;
+    display: flex;
+    padding: 4vw;
+    gap:5%;
+    width: 100%;
+    font-size: 5vw;
+    font-weight: 600;
+}
+.BoothHeaderCont .ArrowIcon{
+    font-size: 7vw;   
+}
+.BoothListCont{
+    height: 92vh;
+    display: flex;
+    flex-direction:column ;
+   
+}
+
+.BoothList{ 
+    height: 80%;
+    width: 95%; 
+    margin: auto;
+    border-radius: 3vw; 
+}
+.BoothsListGrid{
+   height: 100%;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+  
+    overflow-y: scroll;
+    
+
+}
+.BoothsListGrid .BoothCont{
+    
+    margin-left: 10%;
+    height: 15vh;
+    box-shadow: 0px 1px 6px 0px #0000002b;
+    width: 80%;
+    border-radius: 2vw;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#1555cd9d;
+    
+
+    
+    
+    
+}
+.Status{
+    font-size: 3vw;
+    font-weight: 600;
+    margin-inline-start:auto;
+    margin-right: 3vw;
+    margin-top: 3%;
+    
+    text-shadow: 0px 0px 5px  black ;
+}
+.BoothNo{
+    font-weight: 900;
+    font-size: 6vw;
+    color: white;
+    display: flex;
+    flex-grow: 0.9;
+   
+    align-items: center;
+
+}
+.WardNo{
+    flex-grow: 0.1;
+    background-color: white;
+    width: 100%;
+    color:#28529E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:0vw 0vw 2vw 2vw;
+    font-weight: 600;
+}
+
